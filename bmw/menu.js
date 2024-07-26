@@ -44,7 +44,6 @@ const date = moment().format('DD/MM/YYYY');
 ╰───────────────────❂ \n\n`;
  
     let menuMsg=`  
-
 `;
 
     for (const cat in coms) {
@@ -60,8 +59,8 @@ const date = moment().format('DD/MM/YYYY');
     menuMsg += `
 ◇            ◇
 *—————✺✺✺✺—————*
-
-  *4ORTY6YX-OFFICIAL-MD*                                         
+*Made in kenya with Love*🇰🇪  
+ *BY 4ORTY6YX OFFICIAL*                                       
 *╰═════════════❂*
 `;
 
