@@ -32,13 +32,15 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭──❂𝟰𝗢𝗥𝗧𝗬𝟲𝗬𝗫-𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟-𝗠𝗗❂───❂
+╭──❂ 𝟰𝗢𝗥𝗧𝗬𝟲𝗬𝗫-𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟-𝗠𝗗 ❂───❂
 ┊ ╭────────────────❂
-┊ ┊ *User* : ${s.OWNER_NAME}
-┊ ┊ *Mode* : ${mode}
-┊ ┊ *Commands* : ${cm.length}
-┊ ┊ *bot Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┊ ┊ *Our website*: https://4orty6yxofficial.shop 
+┊ ┊ 👤𝗨𝘀𝗲𝗿 : ${s.OWNER_NAME}
+┊ ┊ 🔒𝗺𝗼𝗱𝗲 : ${mode}
+┊ ┊ 🖱️𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 : ${cm.length}
+┊ ┊ 💻𝗕𝗼𝘁 𝗥𝗮𝗺 : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+┊ ┊ 🗓️𝗗𝗔𝗧𝗘 𝗧𝗢𝗗𝗔𝗬: : ${moment.tz('Africa/Nairobi').format('DD/MM/YYYY')}
+┊ ┊ 🚀𝗥𝗨𝗡𝗧𝗜𝗠𝗘 : ${runtime(process.uptime())}
+┊ ┊  𝗢𝘂𝗿 𝘄𝗲𝗯𝘀𝗶𝘁𝗲: https://4orty6yxofficial.shop 
 ┊ ┊ 
 ┊ ╰─────────────────❂
 ╰───────────────────❂ \n\n`;
