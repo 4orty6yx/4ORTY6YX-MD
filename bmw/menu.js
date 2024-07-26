@@ -39,7 +39,6 @@ const date = moment().format('DD/MM/YYYY');
 ┊ ┊ 🖱️𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 : ${cm.length}
 ┊ ┊ 💻𝗕𝗼𝘁 𝗥𝗮𝗺 : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 ┊ ┊ 🗓️𝗗𝗔𝗧𝗘 𝗧𝗢𝗗𝗔𝗬: : ${moment.tz('Africa/Nairobi').format('DD/MM/YYYY')}
-┊ ┊ 🚀𝗥𝗨𝗡𝗧𝗜𝗠𝗘 : ${runtime(process.uptime())}
 ┊ ┊ 🌍𝗢𝘂𝗿 𝘄𝗲𝗯𝘀𝗶𝘁𝗲: https://4orty6yxofficial.shop 
 ┊ ┊ 
 ┊ ╰─────────────────❂
