@@ -854,7 +854,6 @@ zk.ev.on('group-participants.update', async (group) => {
 │ │ 
 │ │ 📚𝗟𝗜𝗕𝗥𝗔𝗥𝗬 : 𝗟𝗮𝘁𝗲𝘀𝘁 𝗯𝗮𝗶𝗹𝗲𝘆𝘀.
 │ │	🫠𝗣𝗥𝗘𝗙𝗜𝗫 : 𝗳𝘂𝗹𝗹𝘀𝘁𝗼𝗽.
-│ │	🗓️𝗗𝗔𝗧𝗘 𝗧𝗢𝗗𝗔𝗬: : ${moment.tz('Africa/Nairobi').format('DD/MM/YYYY')}
 │ │ 👤𝗖𝗥𝗘𝗔𝗧𝗢𝗥 :*4ORTY6YX OFFICIAL*
 │ │ 🚀𝗩𝗲𝗿𝘀𝗶𝗼𝗻: *2.0*
 │ │
