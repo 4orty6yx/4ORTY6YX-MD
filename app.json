@@ -1,5 +1,5 @@
 {
-  "name":"4ORTY6YX-OFFICIAL-MD-V2",
+  "name":"4ORTY6YX-OFFICIAL-MD",
   "description":"A whatsapp bot developed by 4orty6yx official",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/8237d01bfa409038f6dc3.jpg",
@@ -29,7 +29,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"4ORTY6YX-OFFICIAL-MD-V2",
+      "value":"4ORTY6YX-OFFICIAL-MD",
       "required":false
 
     } ,

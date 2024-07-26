@@ -1,7 +1,7 @@
 require("dotenv").config();
 const { Pool } = require("pg");
 let s =require("../set");
-var dbUrl=s.DATABASE_URL?s.DATABASE_URL:"postgres://db_7xp9_user:6hwmTN7rGPNsjlBEHyX49CXwrG7cDeYi@dpg-cj7ldu5jeehc73b2p7g0-a.oregon-postgres.render.com/db_7xp9"
+var dbUrl=s.DATABASE_URL?s.DATABASE_URL:"postgresql://alunya_e8e4_user:vyk26QCkDRzbJL0gQqdXw4qZg8VIOZfs@dpg-cqgf04lds78s73cdvdn0-a.oregon-postgres.render.com/alunya_e8e4"
 
 const proConfig = {
   connectionString:dbUrl ,
