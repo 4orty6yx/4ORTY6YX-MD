@@ -3,7 +3,7 @@
   "description":"A whatsapp bot developed by 4orty6yx official",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://i.imgur.com/tPCLcNz.png",
-  "repository":"https://github.com/ibraahadam/BARAKA-MD-V3",
+  "repository":"https://github.com/4orty6yx/4ORTY6YX-MD",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -25,13 +25,7 @@
       "required":false
     }
     ,
-     "PM_PERMIT" :
-     {
-      "description":"Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
-      "value":"no",
-      "required":false
-    }
-    ,
+
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
@@ -53,15 +47,7 @@
       "required":false
     }
 	,
-    "HEROKU_API_KEY": {
-    "description": "insert your heroku api-key (this is optionnal)",
-     "required" :false
-    },
-  "HEROKU_APP_NAME": {
-    "description": "insert your heroku APP NAME (this is optionnal)",
-     "required" :false
-    }  
-	  ,
+   
     "SESSION_ID":
     {
       "description":"put your session ID , the code you receive after scanning Qr code",   
@@ -97,7 +83,7 @@
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"",
+    "value":"1",
     "required": false
   },
   "ANTI_DELETE_MESSAGE" : {
