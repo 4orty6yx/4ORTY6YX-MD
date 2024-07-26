@@ -15,7 +15,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
     if ((s.MODE).toLocaleLowerCase() != "yes") {
         mode = "private";
     }
-    
+
     var emoji = { "General": "🌐", "Logo": "🎨", "Hentai": "🔥", "Weeb": "🌸", "Recherche": "🔍", "Conversion": "🌟", "Groupe": "♻️", "Autre": "🪖" };
 
     
@@ -32,20 +32,19 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭──❂4ORTY6YX-OFFICIAL-MD❂───❂
+╭──❂𝟰𝗢𝗥𝗧𝗬𝟲𝗬𝗫-𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟-𝗠𝗗❂───❂
 ┊ ╭────────────────❂
 ┊ ┊ *User* : ${s.OWNER_NAME}
 ┊ ┊ *Mode* : ${mode}
 ┊ ┊ *Commands* : ${cm.length}
-┊ ┊ *Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+┊ ┊ *bot Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 ┊ ┊ *Our website*: https://4orty6yxofficial.shop 
 ┊ ┊ 
 ┊ ╰─────────────────❂
 ╰───────────────────❂ \n\n`;
  
     let menuMsg=`  
-  ┆┆┆┆┆┆┆┆┆┆┆┆┆┆┆┆┆┆┆┆┆┆
-✨➽➽➽➽➽➽➽➽➽➽➽➽➽➽➽↰✨
+
 `;
 
     for (const cat in coms) {
