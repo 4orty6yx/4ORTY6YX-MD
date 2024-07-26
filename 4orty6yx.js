@@ -849,24 +849,22 @@ zk.ev.on('group-participants.update', async (group) => {
                 if((conf.DP).toLowerCase() === 'yes') {     
 
                 let cmsg =` 
-╭───《4ORTY6YX-OFFICIAL-MD STARTED》───⊷
-│ ╭──────✧❁✧──────◆
-│ │ 
-│ │ 📚𝗟𝗜𝗕𝗥𝗔𝗥𝗬 : 𝗟𝗮𝘁𝗲𝘀𝘁 𝗯𝗮𝗶𝗹𝗲𝘆𝘀.
-│ │	🫠𝗣𝗥𝗘𝗙𝗜𝗫 : 𝗳𝘂𝗹𝗹𝘀𝘁𝗼𝗽.
-│ │ 👤𝗖𝗥𝗘𝗔𝗧𝗢𝗥 :*4ORTY6YX OFFICIAL*
-│ │ 🚀𝗩𝗲𝗿𝘀𝗶𝗼𝗻: *2.0*
-│ │
-│ │ SUPPORT US BY JOINING OUR WHATSAPP CHANNEL
-│ │
-│ │ https://whatsapp.com/channel/0029Va27Qsy0lwgsOzNhbZ0R
-│ │
-│ │ OUR WEBSITE LINK
-│ │
-│ │ https://4orty6yxofficial.shop
-│ │
-│ ╰──────✧❁✧──────◆
-╰═══════════════════════════⊷⁠⁠⁠⁠⁠⁠`;
+⊷───《4ORTY6YX-OFFICIAL-MD STARTED》──⊷
+
+ 📚𝗟𝗜𝗕𝗥𝗔𝗥𝗬 : 𝗟𝗮𝘁𝗲𝘀𝘁 𝗯𝗮𝗶𝗹𝗲𝘆𝘀.
+	🫠𝗣𝗥𝗘𝗙𝗜𝗫 : 𝗳𝘂𝗹𝗹𝘀𝘁𝗼𝗽.
+ 👤𝗖𝗥𝗘𝗔𝗧𝗢𝗥 :*4ORTY6YX OFFICIAL*
+ 🚀𝗩𝗲𝗿𝘀𝗶𝗼𝗻: *2.0*
+
+ SUPPORT US BY JOINING OUR WHATSAPP CHANNEL
+
+ https://whatsapp.com/channel/0029Va27Qsy0lwgsOzNhbZ0R
+
+ OUR WEBSITE LINK
+
+ https://4orty6yxofficial.shop
+
+⁠⁠⁠⁠⁠⁠`;
 
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
