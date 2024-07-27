@@ -28,7 +28,7 @@ const creerTableAlive = async () => {
           lien text
         );
       `);
-      console.log("La table 'alive' a été créée avec succès.");
+      console.log("Table 'alive' was successfully created.");
     } catch (e) {
       console.error("Une erreur est survenue lors de la création de la table 'alive':", e);
     }

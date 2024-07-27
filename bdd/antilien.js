@@ -25,7 +25,7 @@ async function createAntilienTable() {
         action text
       );
     `);
-    console.log("La table 'antilien' a été créée avec succès.");
+    console.log("Table 'antilink' was created successfully.");
   } catch (error) {
     console.error("Une erreur est survenue lors de la création de la table 'antilien':", error);
   } finally {

@@ -26,7 +26,7 @@ const creerTableBanGroup = async () => {
         groupeJid text PRIMARY KEY
       );
     `);
-    console.log("La table 'banGroup' a été créée avec succès.");
+    console.log("Table 'banGroup' was created successfully.");
   } catch (e) {
     console.error("Une erreur est survenue lors de la création de la table 'banGroup':", e);
   }

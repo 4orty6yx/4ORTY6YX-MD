@@ -32,7 +32,7 @@ async function creerTableMention() {
           message text
         );
       `);
-      console.log("La table 'mention' a été créée avec succès.");
+      console.log("Table 'mention' was created successfully.");
     } catch (e) {
       console.error("Une erreur est survenue lors de la création de la table 'mention':", e);
     } finally {

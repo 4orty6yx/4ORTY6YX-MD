@@ -25,7 +25,7 @@ async function createTablecron() {
           unmute_at text default null
         );
       `);
-      console.log("La table 'cron' a été créée avec succès.");
+      console.log("Table 'cron' was created successfully.");
     } catch (error) {
       console.error("Une erreur est survenue lors de la création de la table 'cron':", error);
     } finally {

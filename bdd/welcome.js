@@ -31,7 +31,7 @@ const creerTableevents = async () => {
         antidemote text DEFAULT 'non'
       );
     `);
-    console.log("La table 'events' a été créée avec succès.");
+    console.log("The 'events' table was successfully created.");
   } catch (e) {
     console.error("Une erreur est survenue lors de la création de la table 'events':", e);
   }

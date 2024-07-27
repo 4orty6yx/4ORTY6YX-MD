@@ -29,7 +29,7 @@ async function creerTableWarnUsers() {
         );
       `;
       await client.query(query);
-      console.log("La table 'warn_users' a été créée avec succès.");
+      console.log("Table 'warn_users' was created successfully.");
     } catch (error) {
       console.error("Erreur lors de la création de la table 'warn_users':", error);
     } finally {

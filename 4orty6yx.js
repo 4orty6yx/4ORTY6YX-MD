@@ -58,7 +58,7 @@ async function authentification() {
        
         //console.log("le data "+data)
         if (!fs.existsSync(__dirname + "/session/creds.json")) {
-            console.log("connexion en cour ...");
+            console.log("Bot connection in progress ...");
             await fs.writeFileSync(__dirname + "/session/creds.json", atob(session), "utf8");
             //console.log(session)
         }
@@ -172,9 +172,9 @@ setTimeout(() => {
             if (verifGroupe) {
                 console.log("message provenant du groupe : " + nomGroupe);
             }
-            console.log("message envoyé par : " + "[" + nomAuteurMessage + " : " + auteurMessage.split("@s.whatsapp.net")[0] + " ]");
-            console.log("type de message : " + mtype);
-            console.log("------ contenu du message ------");
+            console.log("message sent by : " + "[" + nomAuteurMessage + " : " + auteurMessage.split("@s.whatsapp.net")[0] + " ]");
+            console.log("message type : " + mtype);
+            console.log("------ message content ------");
             console.log(texte);
             /**  */
             function groupeAdmin(membreGroupe) {
@@ -806,7 +806,7 @@ zk.ev.on('group-participants.update', async (group) => {
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("ℹ️ Bot is connecting...");
+                console.log("ℹ️ The Bot is connecting...");
             }
             else if (connection === 'open') {
                 console.log("✅ 4ORTY6YX-OFFICIAL-MD HAS BEEN CONNECTED TO WHATSAPP! ☺️");
@@ -849,16 +849,7 @@ zk.ev.on('group-participants.update', async (group) => {
                 if((conf.DP).toLowerCase() === 'yes') {     
 
                 let cmsg =` 
-╭───《4ORTY6YX-OFFICIAL-MD STARTED》───⊷
-│ ╭──────✧❁✧──────◆
-│ │ 
-│ │ 📚𝗟𝗜𝗕𝗥𝗔𝗥𝗬 : 𝗟𝗮𝘁𝗲𝘀𝘁 𝗯𝗮𝗶𝗹𝗲𝘆𝘀.
-│ │	🫠𝗣𝗥𝗘𝗙𝗜𝗫 : 𝗳𝘂𝗹𝗹𝘀𝘁𝗼𝗽.
-│ │ 👤𝗖𝗥𝗘𝗔𝗧𝗢𝗥 :*4ORTY6YX OFFICIAL*
-│ │ 🚀𝗩𝗲𝗿𝘀𝗶𝗼𝗻: *2.0*
-│ │
-│ ╰──────✧❁✧──────◆
-╰═══════════════════════════⊷⁠⁠⁠⁠⁠
+◆4ORTY6YX-OFFICIAL-MD IS CONNECTED AND RUNNING◆
 
  SUPPORT US BY JOINING OUR WHATSAPP CHANNEL
 
@@ -868,7 +859,7 @@ zk.ev.on('group-participants.update', async (group) => {
 
  https://4orty6yxofficial.shop
 
-⊷═══════════════════════════⊷⁠⁠⁠⁠⁠
+
 
 ⁠`;
 

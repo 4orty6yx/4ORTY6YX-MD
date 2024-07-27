@@ -26,7 +26,7 @@ const creerTableBanUser = async () => {
         jid text PRIMARY KEY
       );
     `);
-    console.log("La table 'banUser' a été créée avec succès.");
+    console.log("Table 'banUser' was created successfully.");
   } catch (e) {
     console.error("Une erreur est survenue lors de la création de la table 'banUser':", e);
   }

@@ -26,7 +26,7 @@ const creerTableOnlyAdmin = async () => {
         groupeJid text PRIMARY KEY
       );
     `);
-    console.log("La table 'onlyAdmin' a été créée avec succès.");
+    console.log("Table 'onlyAdmin' was created successfully.");
   } catch (e) {
     console.error("Une erreur est survenue lors de la création de la table 'onlyAdmin':", e);
   }

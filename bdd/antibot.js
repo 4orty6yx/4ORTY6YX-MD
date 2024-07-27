@@ -25,7 +25,7 @@ async function createAntibotTable() {
         action text
       );
     `);
-    console.log("La table 'antibot' a été créée avec succès.");
+    console.log("The 'antibot' table has been successfully created.");
   } catch (error) {
     console.error("Une erreur est survenue lors de la création de la table 'antibot':", error);
   } finally {

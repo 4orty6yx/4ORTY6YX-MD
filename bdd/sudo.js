@@ -28,7 +28,7 @@ async function createSudoTable() {
         jid text NOT NULL
       );
     `);
-    console.log("La table 'sudo' a été créée avec succès.");
+    console.log("Table 'sudo' was created successfully.");
   } catch (error) {
     console.error("Une erreur est survenue lors de la création de la table 'sudo':", error);
   } finally {
