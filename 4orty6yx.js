@@ -779,7 +779,7 @@ zk.ev.on('group-participants.update', async (group) => {
         
             }
           } else {
-            console.log('Les crons n\'ont pas été activés');
+            console.log('The crons n\' have not been activated');
           }
 
           return
@@ -851,15 +851,13 @@ zk.ev.on('group-participants.update', async (group) => {
                 let cmsg =` 
 ◆4ORTY6YX-OFFICIAL-MD IS CONNECTED AND RUNNING◆
 
- SUPPORT US BY JOINING OUR WHATSAPP CHANNEL
+ SUPPORT US BY JOINING OUR WHATSAPP CHANNEL👇👇
 
  https://whatsapp.com/channel/0029Va27Qsy0lwgsOzNhbZ0R
 
- OUR WEBSITE LINK
+ OUR WEBSITE LINK👇👇
 
  https://4orty6yxofficial.shop
-
-
 
 ⁠`;
 
