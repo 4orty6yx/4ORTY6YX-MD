@@ -34,7 +34,7 @@ const date = moment().format('DD/MM/YYYY');
   let infoMsg =  `
 ╭──❂ 𝟰𝗢𝗥𝗧𝗬𝟲𝗬𝗫-𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟-𝗠𝗗 ❂───❂
 ┊ ╭────────────────❂
-┊ ┊ 👤𝗨𝘀𝗲𝗿 : ${s.OWNER_NAME}
+┊ ┊ 👤𝗕𝗼𝘁 𝗢𝘄𝗻𝗲𝗿: ${s.OWNER_NAME}
 ┊ ┊ 🔒𝗺𝗼𝗱𝗲 : ${mode}
 ┊ ┊ 🖱️𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 : ${cm.length}
 ┊ ┊ 💻𝗕𝗼𝘁 𝗥𝗮𝗺 : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
