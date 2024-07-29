@@ -29,14 +29,24 @@ zokou({
           
        let infoMess = {
           image: {url : videos[0]. thumbnail},
-         caption : `\n4ORTY6YX-OFFICIAL-MD\n\n*song name :* _${videos[0].title}_
+         caption : `\n
+█▓▒­░𝟒𝐎𝐑𝐓𝐘𝟔𝐘𝐗-𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋-𝐌𝐃░▒▓█\n\n
 
-*Time :* _${videos[0].timestamp}_
+ıllıllı⭐🌟 m͙u͙s͙i͙c͙ d͙o͙w͙n͙l͙o͙a͙d͙e͙r͙ 🌟⭐ıllıllı\n
 
-*Url :* _${videos[0].url}_
+╭────《  》────⊷
+│ ╭──────✧❁✧──────◆
+│ │
+│ │   🎶*song name :* _${videos[0].title}_
+│ │
+│ │   ⌛*Time :* _${videos[0].timestamp}_
+│ │ 
+│ │   🔗*Url :* _${videos[0].url}_
+│ │ 
+│ ╰──────✧❁✧──────◆
+╰══════════════════⊷
 
-
-©4ORTY6YX-OFFICIAL-MD`
+©ENJOY YOUR MUSIC \n`
        }
 
       
