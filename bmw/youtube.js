@@ -31,22 +31,21 @@ zokou({
           image: {url : videos[0]. thumbnail},
          caption : `\n
 █▓▒­░𝟒𝐎𝐑𝐓𝐘𝟔𝐘𝐗-𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋-𝐌𝐃░▒▓█\n\n
+ıllıllı⬇️⬇️ m͙u͙s͙i͙c͙ d͙o͙w͙n͙l͙o͙a͙d͙e͙r͙ ⬇️⬇️ıllıllı\n
 
-ıllıllı⭐🌟 m͙u͙s͙i͙c͙ d͙o͙w͙n͙l͙o͙a͙d͙e͙r͙ 🌟⭐ıllıllı\n
-
-╭────《  》────⊷
+╭──────────────────⊷
 │ ╭──────✧❁✧──────◆
 │ │
-│ │   🎶*song name :* _${videos[0].title}_
+│ │   🎶 *Name :* _${videos[0].title}_
 │ │
-│ │   ⌛*Time :* _${videos[0].timestamp}_
+│ │   ⌛ *Duration :* _${videos[0].timestamp}_
 │ │ 
-│ │   🔗*Url :* _${videos[0].url}_
+│ │   🔗 *YtLink :* _${videos[0].url}_
 │ │ 
 │ ╰──────✧❁✧──────◆
 ╰══════════════════⊷
 
-©ENJOY YOUR MUSIC \n`
+⦿ENJOY YOUR MUSIC⦿ \n`
        }
 
       
