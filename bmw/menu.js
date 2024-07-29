@@ -60,7 +60,7 @@ const date = moment().format('DD/MM/YYYY');
     menuMsg += `           
 *—————✺✺✺✺—————*
 *Made in kenya with Love*🇰🇪  
- *BY 4ORTY6YX OFFICIAL*                                       
+*BY 4ORTY6YX OFFICIAL*                                       
 
 `;
 

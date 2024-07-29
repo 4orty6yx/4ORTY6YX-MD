@@ -4,7 +4,7 @@ zokou({ nomCom: "hacker",
     categorie: "Logo", reaction: "👨🏿‍💻" }, async (origineMessage, zk, commandeOptions) => {
     const { prefixe, arg, ms, repondre } = commandeOptions;
     if (!arg || arg == "") {
-        repondre("*__EXAMPLE : * " + prefixe + "hacker 4orty6yx");
+        repondre("EXAMPLE :  " + prefixe + "hacker 4orty6yx");
         return;
     }
     try {
@@ -15,7 +15,7 @@ zokou({ nomCom: "hacker",
         // console.log("&€"+res);
       //  let lien = "https://e1.yotools.net" + res;
         repondre("* processing...*");
-        await zk.sendMessage(origineMessage, { image: { url:anu.image}, caption: "* \t LOGO BY 4ORTY6YX-OFFICIAL-MD*" }, { quoted: ms });
+        await zk.sendMessage(origineMessage, { image: { url:anu.image}, caption: "\t LOGO BY 4ORTY6YX-OFFICIAL-MD" }, { quoted: ms });
     }
     catch (e) {
         repondre("🥵🥵 " + e);
@@ -39,7 +39,7 @@ zokou({ nomCom: "dragonball", categorie: "Logo", reaction: "🐉" }, async (dest
         await zk.sendMessage(dest, { text: " *\t Traitement en cours ...*" }, { quoted: ms });
        // var idImg = Object.values(imgInfo)[3];
        
-        await zk.sendMessage(dest, { image: { url: imgInfo.image }, caption: "* \t LOGO BY 4ORTY6YX-OFFICIAL-MD*" }, { quoted: ms });
+        await zk.sendMessage(dest, { image: { url: imgInfo.image }, caption: "\t LOGO BY 4ORTY6YX-OFFICIAL-MD" }, { quoted: ms });
     }
     catch (e) {
         repondre("🥵🥵 " + e);
@@ -146,7 +146,7 @@ zokou({nomCom: "neonlight", categorie: "Logo", reaction: "💡"}, async (dest, z
   }*/
   if(!arg ||arg=="")
   {
-      repondre(`EXAMPLE of using commande:\n ${prefixe}neonlight My text`);
+      repondre(`EXAMPLE of using command:\n ${prefixe}neonlight My text`);
     return;
   }
   
@@ -183,7 +183,7 @@ zokou({nomCom: "greenneon", categorie: "Logo", reaction: "🟢"}, async (dest, z
 zokou({nomCom: "glitch", categorie: "Logo", reaction: "🎛️"}, async (dest, zk, commandeOptions) => {
   const { arg, repondre, ms, prefixe } = commandeOptions;
   if (!arg[0]) {
-    repondre(`EXAMPLE of using commande:\n ${prefixe}glitch My text`);
+    repondre(`EXAMPLE of using command:\n ${prefixe}glitch My text`);
     return;
   }
   
@@ -198,7 +198,7 @@ zokou({nomCom: "glitch", categorie: "Logo", reaction: "🎛️"}, async (dest, z
 zokou({nomCom: "devil", categorie: "Logo", reaction: "😈"}, async (dest, zk, commandeOptions) => {
   const { arg, repondre, ms, prefixe } = commandeOptions;
   if (!arg[0]) {
-    repondre(`EXAMPLE of using commande:\n ${prefixe}devil My text`);
+    repondre(`EXAMPLE of using command:\n ${prefixe}devil My text`);
     return;
   }
   
@@ -274,7 +274,7 @@ var {ms,repondre,arg,prefixe}=commandeOptions;
 zokou({ nomCom: "snow", categorie: "Logo", reaction: "❄️" }, async (dest, zk, commandeOptions) => {
   const { arg, ms, prefixe,repondre } = commandeOptions;
   if (!arg[0]) {
-    repondre(`EXAMPLE of using commande:\n ${prefixe}Snow My text`);
+    repondre(`EXAMPLE of using command:\n ${prefixe}Snow My text`);
     return;
   }
 
@@ -291,7 +291,7 @@ zokou({ nomCom: "snow", categorie: "Logo", reaction: "❄️" }, async (dest, zk
 zokou({ nomCom: "transformer", categorie: "Logo", reaction: "🤖" }, async (dest, zk, commandeOptions) => {
   const { arg, ms, prefixe,repondre } = commandeOptions;
   if (!arg[0]) {
-    repondre(`EXAMPLE of using commande:\n ${prefixe}Transformer My text`);
+    repondre(`EXAMPLE of using command:\n ${prefixe}Transformer My text`);
     return;
   }
 
@@ -308,7 +308,7 @@ zokou({ nomCom: "transformer", categorie: "Logo", reaction: "🤖" }, async (des
 zokou({ nomCom: "thunder", categorie: "Logo", reaction: "⚡" }, async (dest, zk, commandeOptions) => {
   const { arg, ms, prefixe,repondre } = commandeOptions;
   if (!arg[0]) {
-    repondre(`EXAMPLE of using commande:\n ${prefixe}Thunder My text`);
+    repondre(`EXAMPLE of using command:\n ${prefixe}Thunder My text`);
     return;
   }
 
@@ -325,7 +325,7 @@ zokou({ nomCom: "thunder", categorie: "Logo", reaction: "⚡" }, async (dest, zk
 zokou({ nomCom: "harrypotter", categorie: "Logo", reaction: "🧙‍♂️" }, async (dest, zk, commandeOptions) => {
   const { arg, ms, prefixe,repondre } = commandeOptions;
   if (!arg[0]) {
-    repondre(`EXAMPLE of using commande:\n ${prefixe}HarryPotter My text`);
+    repondre(`EXAMPLE of using command:\n ${prefixe}HarryPotter My text`);
     return;
   }
 
@@ -342,7 +342,7 @@ zokou({ nomCom: "harrypotter", categorie: "Logo", reaction: "🧙‍♂️" }, a
 zokou({ nomCom: "cat", categorie: "Logo", reaction: "🪟" }, async (dest, zk, commandeOptions) => {
   const { arg, ms, prefixe } = commandeOptions;
   if (!arg[0]) {
-    repondre(`EXAMPLE of using commande:\n ${prefixe}FoggyWindow My text`);
+    repondre(`EXAMPLE of using command:\n ${prefixe}FoggyWindow My text`);
     return;
   }
 
@@ -361,7 +361,7 @@ zokou({ nomCom: "cat", categorie: "Logo", reaction: "🪟" }, async (dest, zk, c
 zokou({ nomCom: "whitegold", categorie: "Logo", reaction: "💫" }, async (dest, zk, commandeOptions) => {
   const { arg, ms, prefixe,repondre } = commandeOptions;
   if (!arg[0]) {
-    repondre(`EXAMPLE of using commande:\n ${prefixe}WhiteGold My text`);
+    repondre(`EXAMPLE of using command:\n ${prefixe}WhiteGold My text`);
     return;
   }
 
@@ -378,7 +378,7 @@ zokou({ nomCom: "whitegold", categorie: "Logo", reaction: "💫" }, async (dest,
 zokou({ nomCom: "lightglow", categorie: "Logo", reaction: "🌟" }, async (dest, zk, commandeOptions) => {
   const { arg, ms, prefixe,repondre } = commandeOptions;
   if (!arg[0]) {
-    repondre(`EXAMPLE of using commande:\n ${prefixe}LightGlow My text`);
+    repondre(`EXAMPLE of using command:\n ${prefixe}LightGlow My text`);
     return;
   }
 
@@ -395,7 +395,7 @@ zokou({ nomCom: "lightglow", categorie: "Logo", reaction: "🌟" }, async (dest,
 zokou({ nomCom: "thor", categorie: "Logo", reaction: "🔨" }, async (dest, zk, commandeOptions) => {
   const { arg, ms, prefixe,repondre } = commandeOptions;
   if (!arg[0]) {
-    repondre(`EXAMPLE of using commande:\n ${prefixe}Thor My text`);
+    repondre(`EXAMPLE of using command:\n ${prefixe}Thor My text`);
     return;
   }
 
@@ -412,7 +412,7 @@ zokou({ nomCom: "thor", categorie: "Logo", reaction: "🔨" }, async (dest, zk, 
 zokou({ nomCom: "neon", categorie: "Logo", reaction: "💡" }, async (dest, zk, commandeOptions) => {
   const { arg, ms, prefixe,repondre } = commandeOptions;
   if (!arg[0]) {
-    repondre(`EXAMPLE of using commande:\n ${prefixe}Neon My text`);
+    repondre(`EXAMPLE of using command:\n ${prefixe}Neon My text`);
     return;
   }
 
@@ -438,7 +438,7 @@ zokou({nomCom:"purple",categorie:"Logo",reaction:"🧳"},async(dest,zk,commandeO
       const lien="https://en.ephoto360.com/purple-text-effect-online-100.html"
       var img = await mumaker.ephoto(lien,arg);
       repondre(" processing ...")
-      await zk.sendMessage(dest,{image:{url:img.image},caption:"      *LOGO BY 4ORTY6YX-OFFICIAL-MD*"});
+      await zk.sendMessage(dest,{image:{url:img.image},caption:"*LOGO BY 4ORTY6YX-OFFICIAL-MD* "});
     }catch(e){repondre(e)}
   
 })
