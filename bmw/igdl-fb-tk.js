@@ -3,12 +3,12 @@ const fs = require('fs');
 const getFBInfo = require("@xaviabot/fb-downloader");
 const { default: axios } = require('axios');
 
-zokou({nomCom : "instagram" , categorie : "Download"},async (dest , zk , commandeOptions)=>{
+zokou({nomCom : "instagram" , categorie : "Downloader"},async (dest , zk , commandeOptions)=>{
   const {ms,repondre,arg} = commandeOptions ;
 
   let link = arg.join(' ')
 
-  if (!arg[0]) { repondre('Veillez insérer un lien video instagramme');return}; 
+  if (!arg[0]) { repondre('Please insert an Instagram video link');return}; 
 
   try {
      
@@ -21,14 +21,14 @@ zokou({nomCom : "instagram" , categorie : "Download"},async (dest , zk , command
         zk.sendMessage(dest,{image : {url : igvid.data.data.data[0].url},caption : "ig image downloader powered by *4ORTY6YX-OFFICIAL-MD*"})
     }
   
-  } catch (e) {repondre("erreur survenue lors du téléchargement \n " + e)}
+  } catch (e) {repondre("Error occured while downloading \n " + e)}
   
 });
 
 
 zokou({
-  nomCom: "facabook",
-  categorie: "Download",
+  nomCom: "facebook",
+  categorie: "Downloader",
   reaction: "📽️"
 },
 async (dest, zk, commandeOptions) => {
@@ -59,13 +59,13 @@ async (dest, zk, commandeOptions) => {
    
   } catch (error) {
     console.error('Erreur lors du téléchargement de la vidéo :', error);
-    repondre('Erreur lors du téléchargement de la vidéo.' , error);
+    repondre('Error downloading video.' , error);
   }
 });
 
 
 
-zokou({ nomCom: "tiktok", categorie: "Download", reaction: "🎵" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "tiktok", categorie: "Downloader", reaction: "🎵" }, async (dest, zk, commandeOptions) => {
   const { arg, ms, prefixe,repondre } = commandeOptions;
   if (!arg[0]) {
     repondre(`how to use this command:\n ${prefixe}tiktok tiktok_video_link`);
@@ -92,7 +92,7 @@ Description: ${tik.desc}
 
 zokou({
   nomCom: "facebook2",
-  categorie: "Download",
+  categorie: "Downloader",
   reaction: "📽️"
 },
 async (dest, zk, commandeOptions) => {
@@ -123,6 +123,6 @@ async (dest, zk, commandeOptions) => {
    
   } catch (error) {
     console.error('Erreur lors du téléchargement de la vidéo :', error);
-    repondre('Erreur lors du téléchargement de la vidéo.' , error);
+    repondre('Error downloading video.' , error);
   }
 });

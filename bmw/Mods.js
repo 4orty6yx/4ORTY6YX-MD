@@ -13,18 +13,18 @@ const sleep =  (ms) =>{
   } ;
 
 
-  zokou({ nomCom: "tgs", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+  zokou({ nomCom: "tgs", categorie: "Bot owner" }, async (dest, zk, commandeOptions) => {
     const { ms, repondre, arg, nomAuteurMessage, superUser } = commandeOptions;
   
     if (!superUser) {
-      repondre('Only Mods can use this command'); return;
+      repondre('Only  the Bot owner can use this command'); return;
     }
     //const apikey = conf.APILOLHUMAIN
   
    // if (apikey === null || apikey === 'null') { repondre('Veillez vérifier votre apikey ou si vous en avez pas , veiller crée un compte sur api.lolhuman.xyz et vous en procurer une.'); return; };
   
     if (!arg[0]) {
-      repondre("put a telegramme stickers link ");
+      repondre("insert a telegram link ");
       return;
     }
   
@@ -47,7 +47,7 @@ const sleep =  (ms) =>{
         type = 'not animated sticker'
       }
   
-      let msg = `   Beltah-md-stickers-dl
+      let msg = `   4ORTY6YX OFFICIAL MD STICKER DOWNLOADER
       
   *Name :* ${stickers.data.result.name}
   *Type :* ${type} 
@@ -94,10 +94,10 @@ const sleep =  (ms) =>{
     }
   });
 
-zokou({ nomCom: "crew", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "crew", categorie: "Bot owner" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, arg, auteurMessage, superUser, auteurMsgRepondu, msgRepondu } = commandeOptions;
 
-  if (!superUser) { repondre("only modds can use this command"); return };
+  if (!superUser) { repondre("only the Bot owner can use this command"); return };
 
   if (!arg[0]) { repondre('Please enter the name of the group to create'); return };
   if (!msgRepondu) { repondre('Please mention a member added '); return; }
@@ -110,19 +110,19 @@ zokou({ nomCom: "crew", categorie: "Mods" }, async (dest, zk, commandeOptions) =
 
 });
 
-zokou({ nomCom: "left", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "left", categorie: "Bot owner" }, async (dest, zk, commandeOptions) => {
 
   const { ms, repondre, verifGroupe, msgRepondu, verifAdmin, superUser, auteurMessage } = commandeOptions;
   if (!verifGroupe) { repondre("group only"); return };
   if (!superUser) {
-    repondre("order reserved for the owner");
+    repondre("order reserved for the Bot owner");
     return;
   }
 
   await zk.groupLeave(dest)
 });
 
-zokou({ nomCom: "join", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "join", categorie: "Bot owner" }, async (dest, zk, commandeOptions) => {
 
   const { arg, ms, repondre, verifGroupe, msgRepondu, verifAdmin, superUser, auteurMessage } = commandeOptions;
 
@@ -140,7 +140,7 @@ zokou({ nomCom: "join", categorie: "Mods" }, async (dest, zk, commandeOptions) =
 })
 
 
-zokou({ nomCom: "jid", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "jid", categorie: "Bot owner" }, async (dest, zk, commandeOptions) => {
 
   const { arg, ms, repondre, verifGroupe, msgRepondu, verifAdmin, superUser, auteurMessage,auteurMsgRepondu } = commandeOptions;
 
@@ -159,7 +159,7 @@ zokou({ nomCom: "jid", categorie: "Mods" }, async (dest, zk, commandeOptions) =>
 
   
 
-zokou({ nomCom: "block", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "block", categorie: "Bot owner" }, async (dest, zk, commandeOptions) => {
 
   const { arg, ms, repondre, verifGroupe, msgRepondu, verifAdmin, superUser, auteurMessage,auteurMsgRepondu } = commandeOptions;
 
@@ -183,7 +183,7 @@ zokou({ nomCom: "block", categorie: "Mods" }, async (dest, zk, commandeOptions) 
 
   });
 
-zokou({ nomCom: "unblock", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "unblock", categorie: "Bot owner" }, async (dest, zk, commandeOptions) => {
 
   const { arg, ms, repondre, verifGroupe, msgRepondu, verifAdmin, superUser, auteurMessage,auteurMsgRepondu } = commandeOptions;
 
@@ -243,7 +243,7 @@ await zk.groupParticipantsUpdate(
 
 zokou({
     nomCom: 'ban',
-    categorie: 'Mods',
+    categorie: 'Bot owner',
 }, async (dest, zk, commandeOptions) => {
 
     const { ms, arg, auteurMsgRepondu, msgRepondu , repondre,prefixe,superUser } = commandeOptions;
@@ -292,7 +292,7 @@ zokou({
 
 zokou({
     nomCom: 'bangroup',
-    categorie: 'Mods',
+    categorie: 'Bot owner',
 }, async (dest, zk, commandeOptions) => {
 
     const { ms, arg, auteurMsgRepondu, msgRepondu , repondre,prefixe,superUser,verifGroupe } = commandeOptions;
@@ -387,7 +387,7 @@ if(!verifGroupe) {repondre('order reservation for groups' ) ; return };
 
 zokou({
   nomCom: 'sudo',
-  categorie: 'Mods',
+  categorie: 'Bot owner',
 }, async (dest, zk, commandeOptions) => {
 
   const { ms, arg, auteurMsgRepondu, msgRepondu , repondre,prefixe,superUser } = commandeOptions;
@@ -434,7 +434,7 @@ if (!superUser) {repondre('This command is only allowed to the bot owner') ; ret
 });
 
 
-zokou({ nomCom: "save", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "save", categorie: "Bot owner" }, async (dest, zk, commandeOptions) => {
 
   const { repondre , msgRepondu , superUser, auteurMessage } = commandeOptions;
   
@@ -510,7 +510,7 @@ zokou({ nomCom: "save", categorie: "Mods" }, async (dest, zk, commandeOptions) =
       } else { repondre('Mention the message that you want to save') }
   
   } else {
-    repondre('only mods can use this command')
+    repondre('only the Bot owner can use this command')
   }
   
 
@@ -520,7 +520,7 @@ zokou({ nomCom: "save", categorie: "Mods" }, async (dest, zk, commandeOptions) =
 
 zokou({
   nomCom : 'mention',
-  categorie : 'Mods',
+  categorie : 'Bot owner',
 } , async (dest,zk,commandeOptions) => {
 
  const {ms , repondre ,superUser , arg} = commandeOptions ;

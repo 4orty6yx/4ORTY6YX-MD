@@ -21,7 +21,7 @@ zokou({ nomCom: "yts", categorie: "Search", reaction: "✋" }, async (dest, zk, 
     for (let i = 0; i < 10; i++) {
       captions += `----------------\nTitle: ${resultat[i].title}\nTime : ${resultat[i].timestamp}\nUrl: ${resultat[i].url}\n`;
     }
-    captions += "\n======\n*powered by Bmw-Md*";
+    captions += "\n======\n*powered by 4orty6yx md*";
 
     // repondre(captions)
     zk.sendMessage(dest, { image: { url: resultat[0].thumbnail }, caption: captions }, { quoted: ms });
@@ -83,12 +83,12 @@ _*En cours de téléchargement...*_\n\n`
 
     fileStream.on('error', (error) => {
       console.error('Erreur lors de l\'écriture du fichier vidéo :', error);
-      repondre('Une erreur est survenue lors de l\'écriture du fichier vidéo.');
+      repondre('An error occurred while writing the video file.');
     });
 
   } catch (error) {
     console.error('Erreur lors de la recherche ou du téléchargement de la vidéo :', error);
-    repondre('Une erreur est survenue lors de la recherche ou du téléchargement de la vidéo.' + error);
+    repondre('An error occurred while searching or downloading the video.' + error);
   }
 });
 
@@ -124,11 +124,11 @@ zokou({
 
     fileStream.on('error', (error) => {
       console.error('Erreur lors de l\'écriture du fichier audio :', error);
-      repondre('Une erreur est survenue lors de l\'écriture du fichier audio.');
+      repondre('An error occurred while writing the audio file');
     });
 
   } catch (error) {
     console.error('Erreur lors de la recherche ou du téléchargement de la vidéo :', error);
-    repondre('Une erreur est survenue lors de la recherche ou du téléchargement de la vidéo.');
+    repondre('An error occurred while searching or downloading the video.');
   }
 });

@@ -7,7 +7,7 @@ zokou({nomCom:"vv",categorie:"General",reaction:"🤲🏿"},async(dest,zk,comman
 const {ms,msgRepondu,repondre}=commandeOptions;
 
 
-if(!msgRepondu){return repondre("*Mentionne a view once media* .");}
+if(!msgRepondu){return repondre("*reply to a view once media* .");}
 
 
 if(msgRepondu.viewOnceMessageV2)
@@ -29,7 +29,7 @@ await zk.sendMessage(dest,{video:{url:video},caption:texte},{quoted:ms})
 }
 }else
 {
-   return repondre("this message is not on view once .")
+   return repondre("this message is not on view once media.")
 }
 
 

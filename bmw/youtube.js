@@ -141,13 +141,13 @@ zokou({
 
       fileStream.on('error', (error) => {
         console.error('Erreur lors de l\'écriture du fichier vidéo :', error);
-        repondre('Une erreur est survenue lors de l\'écriture du fichier vidéo.');
+        repondre('An error occurred while writing the video file.');
       });
     } else {
       repondre('No video found');
     }
   } catch (error) {
     console.error('Erreur lors de la recherche ou du téléchargement de la vidéo :', error);
-    repondre('Une erreur est survenue lors de la recherche ou du téléchargement de la vidéo.');
+    repondre('An error occurred while searching or downloading the video.');
   }
 });
