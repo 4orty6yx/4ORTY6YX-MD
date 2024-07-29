@@ -9,18 +9,26 @@
   "env":{
     "PREFIX":
     {
-      "description":"choose your prefix of bot",
+      "description":"choose a prefix for commands on your bot",
       "value":".",
       "required":true
     },
+    
     "AUTO_READ_STATUS":
     {
-      "description":"Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
+      "description":"use yes fo automatic status viewing just now,else set no)",
       "value":"yes",
       "required":false
-    }, "AUTO_DOWNLOAD_STATUS":
+    }, 
+    "READ_MESSAGES":
     {
-      "description":"Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letters)",
+      "description":"use yes for the bot to autoread messsages and bluetick everyone who messages you,else set no)",
+      "value":"no",
+      "required":false
+    },
+    "AUTO_DOWNLOAD_STATUS":
+    {
+      "description":"use yes for all statuses to be sent to your own dm,esle set no",
       "value":"no",
       "required":false
     }
@@ -28,21 +36,21 @@
 
     "BOT_NAME" : {
        
-      "description":"put A name for your bot",
+      "description":"set A name for your bot",
       "value":"4ORTY6YX-OFFICIAL-MD",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
-      "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
+      "description":"add an image to appear on your bot menu",
       "value":"https://telegra.ph/file/8237d01bfa409038f6dc3.jpg",
       "required":false
        
      },
     "PUBLIC_MODE":
     {
-      "description":"type yes to put your bot on public mode or no to put it on private mode",
+      "description":"use yes to set public anyone can use the bot for basic functions,else set no to use private mode",
       "value":"no",
       "required":false
     }
@@ -50,7 +58,7 @@
    
     "SESSION_ID":
     {
-      "description":"put your session ID , the code you receive after scanning Qr code",   
+      "description":"enter your session ID here,the one recieved after pairing",   
       "value":"",
       "required":true
       
@@ -58,26 +66,26 @@
     "OWNER_NAME":
     {
     
-    "desc": "Your Name",
+    "desc": "set Your Name to appear on the menu",
     "required": false,
     "value": "4ORTY6YX-OFFICIAL-MD-V2"
   },
     "NUMERO_OWNER":
   {
     
-    "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
+    "desc": "Your phone number in international format without plus sign, e.g. 254795900001)",
     "required":false,
     "value": "254795900001"
   },
     "WARN_COUNT":
   {
-    "desc": "this is the limit of warn for warning commandes",
+    "desc": "the number of times one will be warned for violating certain rules before action is taken",
     "required": false,
     "value": "3"
   },
   "STARTING_BOT_MESSAGE":
   {
-    "description": "if you don't want startting-bot-message put no else put yes",
+    "description": "use yes to set a message when the bot connects or restarts,else use no",
     "required": true,
     "value": "yes"
   },
@@ -87,7 +95,7 @@
     "required": false
   },
   "ANTI_DELETE_MESSAGE" : {
-    "description": "if you want to enable anti delete message put yes else put no",
+    "description": "use yes to automatically get deleted messages else set no",
     "value": "yes",
         "required": false
   }
