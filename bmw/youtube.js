@@ -45,7 +45,7 @@ zokou({
 │ ╰──────✧❁✧──────◆
 ╰══════════════════⊷
 
-⦿ENJOY YOUR MUSIC⦿ \n`
+⦿ENJOY YOUR MUSIC😉😉⦿ \n`
        }
 
       
