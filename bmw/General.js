@@ -69,8 +69,8 @@ zokou({ nomCom: "dev", categorie: "General", reaction: "🚘" }, async (dest, zk
         zk.sendMessage(dest, { video: { url: lien }, caption:message }, { quoted: ms });
     }
     catch (e) {
-        console.log("🥵🥵 Menu erreur " + e);
-        repondre("🥵🥵 Menu erreur " + e);
+        console.log("🥵🥵 Menu error " + e);
+        repondre("🥵🥵 Menu error " + e);
     }
 } 
 // Vérification pour .jpeg ou .png
@@ -80,7 +80,7 @@ else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
-        repondre("🥵🥵 Menu erreur " + e);
+        repondre("🥵🥵 Menu error " + e);
     }
 } 
 else {
@@ -93,7 +93,7 @@ else {
 zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
-  repondre("THANK YOU FOR CHOOSING 4ORTY6YX OFFICIAL-MD") 
-  await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING 4ORTY6YX OFFICIAL-MD `},{quoted :ms})
+  repondre("THANK YOU FOR CHOOSING 4ORTY6YX OFFICIAL-MD,IF YOUR BOT HAS A PROBLEM CONTACT ME WITH YOUR BOT NAME FOR FIXING ") 
+  await zk.sendMessage(auteurMessage,{text : `SEARCH " 4ORTY6YX OFFICIAL" ON GOOGLE AND GIVE USE A 5 STAR REVIEW,THANKS `},{quoted :ms})
 
 })

@@ -24,7 +24,7 @@ async (dest, zk, commandeOptions) => {
 
   function envoiImage(e,r)
    {
-        if(e){repondre("oups une error ")}else{for(var a=0;a<5;a++){zk.sendMessage(dest,{image:{url:r[a].url}},{quoted:ms});}}
+        if(e){repondre("oups AN error ")}else{for(var a=0;a<5;a++){zk.sendMessage(dest,{image:{url:r[a].url}},{quoted:ms});}}
     
    }
 

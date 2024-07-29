@@ -26,7 +26,7 @@ zokou(
                   [text.split('=')[0]]: text.split('=')[1],
           },
         });
-        await repondre('Heroku var changes , rebootings....')
+        await repondre('Heroku var changes , rebooting....')
     }
 );
 

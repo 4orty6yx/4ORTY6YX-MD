@@ -8,17 +8,17 @@ zokou({ nomCom: "fancy", categorie: "Fun", reaction: "〽️" }, async (dest, zk
 
     try {
         if (id === undefined || text === undefined) {
-            return await repondre(`\nExemple : ${prefixe}fancy 10 Baraka-Md\n` + String.fromCharCode(8206).repeat(4001) + fancy.list('BARAKA-MD', fancy));
+            return await repondre(`\nExample : ${prefixe}fancy 10 ALUNYA\n` + String.fromCharCode(8206).repeat(4001) + fancy.list('ALUNYA', fancy));
         }
 
         const selectedStyle = fancy[parseInt(id) - 1];
         if (selectedStyle) {
             return await repondre(fancy.apply(selectedStyle, text));
         } else {
-            return await repondre('_Style introuvable :(_');
+            return await repondre('_Style not found :(_');
         }
     } catch (error) {
         console.error(error);
-        return await repondre('_Une erreur s\'est produite :(_');
+        return await repondre('_An error has occurred :(_');
     }
 });

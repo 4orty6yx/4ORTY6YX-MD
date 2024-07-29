@@ -281,7 +281,7 @@ zokou({nomCom:"photo",categorie: "Conversion", reaction: "👨🏿‍💻"},asyn
   if(!msgRepondu) { repondre( 'make sure to mention the media' ) ; return } ;
  
    if (!msgRepondu.stickerMessage) {
-      repondre('Um mention a non-animated sticker'); return
+      repondre('mention a non-animated sticker'); return
   } ;
 
  let mediaMess = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage);
@@ -333,13 +333,13 @@ zokou({ nomCom: "trt", categorie: "Conversion", reaction: "👨🏿‍💻" }, a
 
         } catch (error) {
           
-          repondre('Mention a texte Message') ;
+          repondre('Mention a text Message') ;
       
         }
 
    } else {
      
-     repondre('Mention a texte Message')
+     repondre('Mention a text Message')
    }
 
 
@@ -351,7 +351,7 @@ zokou({ nomCom: "url", categorie: "Conversion", reaction: "👨🏿‍💻" }, a
   const { msgRepondu, repondre } = commandeOptions;
 
   if (!msgRepondu) {
-      repondre('mention a image or video');
+      repondre('mention an image or video');
       return;
   }
 
@@ -362,7 +362,7 @@ zokou({ nomCom: "url", categorie: "Conversion", reaction: "👨🏿‍💻" }, a
   } else if (msgRepondu.imageMessage) {
       mediaPath = await zk.downloadAndSaveMediaMessage(msgRepondu.imageMessage);
   } else {
-      repondre('mention a image or video');
+      repondre('mention an image or video');
       return;
   }
 
@@ -373,6 +373,6 @@ zokou({ nomCom: "url", categorie: "Conversion", reaction: "👨🏿‍💻" }, a
       repondre(telegraphUrl);
   } catch (error) {
       console.error('Erreur lors de la création du lien Telegraph :', error);
-      repondre('Opps error');
+      repondre('Opps an error occured');
   }
 });

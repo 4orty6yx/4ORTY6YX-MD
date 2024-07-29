@@ -42,7 +42,7 @@ zokou({
   const { arg, repondre } = commandeOptions;
   
   if (!arg[0] || arg === "") {
-    repondre("Give me a query.\n*Example: .google What is a bot.*");
+    repondre("Give me a query.\n*Example: .google Who is 4orty6yx official.*");
     return;
   }
 
@@ -60,7 +60,7 @@ zokou({
    // const trdmsg = await traduire(msg,{to : 'fr'})
     repondre(msg);
   } catch (error) {
-    repondre("An error occurred during Google search.");
+    repondre("An error occurred during the Google search.");
   }
 });
 

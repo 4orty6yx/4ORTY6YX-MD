@@ -71,7 +71,7 @@ zokou(
         const { repondre, superUser } = commandeOptions;
 
         if (!superUser) {
-            repondre('only Mods can use this command');
+            repondre('only the bot owner can use this command');
             return;
         }
 

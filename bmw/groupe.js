@@ -377,7 +377,7 @@ zokou({ nomCom: "info", categorie: 'Group' }, async (dest, zk, commandeOptions) 
                     } else {
                   await ajouterOuMettreAJourJid(dest,"oui");
                 
-              repondre("the antilink is activated successfully") }
+              repondre(" antilink is activated successfully") }
      
             } else if (arg[0] === "off") {
 
@@ -526,7 +526,7 @@ zokou({ nomCom: "left", categorie: "Bot owner" }, async (dest, zk, commandeOptio
     repondre("command reserved for the bot owner");
     return;
   }
-  await repondre('sayonnara') ;
+  await repondre('DONE') ;
    
   zk.groupLeave(dest)
 });

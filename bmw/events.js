@@ -17,7 +17,7 @@ async function events(nomCom) {
                     await attribuerUnevaleur(dest, nomCom, arg[0]);
                     repondre( nomCom + "is actualised on " + arg[0]);
                 } else {
-                    repondre('on for active and off for desactive');
+                    repondre('on to activate,off to deactivate');
                 }
             }
         } else {
