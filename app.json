@@ -16,13 +16,13 @@
     
     "AUTO_READ_STATUS":
     {
-      "description":"use yes fo automatic status viewing just now,else set no)",
+      "description":"use yes fo automatic status viewing just now,else set no",
       "value":"yes",
       "required":false
     }, 
     "READ_MESSAGES":
     {
-      "description":"use yes for the bot to autoread messsages and bluetick everyone who messages you,else set no)",
+      "description":"use yes for the bot to autoread messsages and bluetick everyone who messages you,else set no",
       "value":"no",
       "required":false
     },
@@ -73,7 +73,7 @@
     "NUMERO_OWNER":
   {
     
-    "desc": "Your phone number in international format without plus sign, e.g. 254795900001)",
+    "desc": "Your phone number in international format without plus sign, e.g. 254795900001",
     "required":false,
     "value": "254795900001"
   },
@@ -85,7 +85,7 @@
   },
   "STARTING_BOT_MESSAGE":
   {
-    "description": "use yes to set a message when the bot connects or restarts,else use no",
+    "description": "use yes to send a message when the bot connects or restarts,else use no",
     "required": true,
     "value": "yes"
   },
