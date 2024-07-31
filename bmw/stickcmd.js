@@ -6,7 +6,7 @@ const {addstickcmd, deleteCmd, getCmdById, inStickCmd , getAllStickCmds} = requi
 zokou(
     {
         nomCom : 'setcmd',
-        categorie : 'stickcmd'
+        categorie : '🥳stickcmd'
         
     }, async (dest,zk,commandeOptions) => { 
 
@@ -33,7 +33,7 @@ zokou(
     zokou(
       {
           nomCom: 'delcmd',
-          categorie: 'stickcmd'
+          categorie: '🥳stickcmd'
       },
       async (dest, zk, commandeOptions) => {
   
@@ -65,7 +65,7 @@ zokou(
   zokou(
     {
         nomCom: 'allcmd',
-        categorie: 'stickcmd'
+        categorie: '🥳stickcmd'
     },
     async (dest, zk, commandeOptions) => {
         const { repondre, superUser } = commandeOptions;

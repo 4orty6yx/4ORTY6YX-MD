@@ -3,7 +3,7 @@ const fs = require('fs');
 const getFBInfo = require("@xaviabot/fb-downloader");
 const { default: axios } = require('axios');
 
-zokou({nomCom : "instagram" , categorie : "Downloader"},async (dest , zk , commandeOptions)=>{
+zokou({nomCom : "instagram" , categorie : "📥Downloader"},async (dest , zk , commandeOptions)=>{
   const {ms,repondre,arg} = commandeOptions ;
 
   let link = arg.join(' ')
@@ -28,7 +28,7 @@ zokou({nomCom : "instagram" , categorie : "Downloader"},async (dest , zk , comma
 
 zokou({
   nomCom: "facebook",
-  categorie: "Downloader",
+  categorie: "📥Downloader",
   reaction: "📽️"
 },
 async (dest, zk, commandeOptions) => {
@@ -65,7 +65,7 @@ async (dest, zk, commandeOptions) => {
 
 
 
-zokou({ nomCom: "tiktok", categorie: "Downloader", reaction: "🎵" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "tiktok", categorie: "📥Downloader", reaction: "🎵" }, async (dest, zk, commandeOptions) => {
   const { arg, ms, prefixe,repondre } = commandeOptions;
   if (!arg[0]) {
     repondre(`how to use this command:\n ${prefixe}tiktok tiktok_video_link`);
@@ -92,7 +92,7 @@ Description: ${tik.desc}
 
 zokou({
   nomCom: "facebook2",
-  categorie: "Downloader",
+  categorie: "📥Downloader",
   reaction: "📽️"
 },
 async (dest, zk, commandeOptions) => {

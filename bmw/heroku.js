@@ -5,7 +5,7 @@ const s = require('../set')
 zokou(
     {
         nomCom : "setvar",
-        categorie : "heroku"
+        categorie : "🌀heroku"
     }, async (dest , zk , commandeOptions) =>{
 
        const {ms,repondre,superUser , arg} = commandeOptions ;
@@ -33,7 +33,7 @@ zokou(
 zokou(
     {
         nomCom : "allvar",
-        categorie : "heroku"
+        categorie : "🌀heroku"
     }, async (dest , zk , commandeOptions) =>{
 
        const {ms,repondre,superUser , arg} = commandeOptions ;
@@ -63,7 +63,7 @@ str+= '🚘 *'+vr+'* '+'= '+h[vr]+'\n'
     zokou(
         {
             nomCom : "getvar",
-            categorie : "heroku"
+            categorie : "🌀heroku"
         }, async (dest , zk , commandeOptions) =>{
     
            const {ms,repondre,superUser , arg} = commandeOptions ;

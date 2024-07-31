@@ -32,7 +32,7 @@ zokou({ nomCom: "yts", categorie: "🔎Search", reaction: "✋" }, async (dest, 
 
 zokou({
   nomCom: "ytmp4",
-  categorie: "Download",
+  categorie: "💻⚡Download",
   reaction: "🎥"
 }, async (origineMessage, zk, commandeOptions) => {
   const { arg, ms, repondre } = commandeOptions;
@@ -94,7 +94,7 @@ _*En cours de téléchargement...*_\n\n`
 
 zokou({
   nomCom: "ytmp3",
-  categorie: "Download",
+  categorie: "💻⚡Download",
   reaction: "💿"
 }, async (origineMessage, zk, commandeOptions) => {
   const { ms, repondre, arg } = commandeOptions;
