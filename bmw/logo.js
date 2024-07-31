@@ -14,7 +14,7 @@ zokou({ nomCom: "hacker",
        // let res = Object.values(anu)[3];
         // console.log("&€"+res);
       //  let lien = "https://e1.yotools.net" + res;
-        repondre("* processing...*");
+        repondre("*processing*...");
         await zk.sendMessage(origineMessage, { image: { url:anu.image}, caption: "\t LOGO BY 4ORTY6YX-OFFICIAL-MD" }, { quoted: ms });
     }
     catch (e) {
@@ -36,7 +36,7 @@ zokou({ nomCom: "dragonball", categorie: "🎨Logo", reaction: "🐉" }, async (
        
         const imgInfo = await mumaker.ephoto(lienMaker2, arg.join(' '));
        
-        await zk.sendMessage(dest, { text: " *\t Generating Logo ...*" }, { quoted: ms });
+        await zk.sendMessage(dest, { text: " \t *Generating Logo* ..." }, { quoted: ms });
        // var idImg = Object.values(imgInfo)[3];
        
         await zk.sendMessage(dest, { image: { url: imgInfo.image }, caption: "\t LOGO BY 4ORTY6YX-OFFICIAL-MD" }, { quoted: ms });
@@ -197,6 +197,25 @@ zokou({nomCom:"incandescent",categorie:"🎨Logo",reaction:"😋"},async(dest,zk
 
     var img = await mumaker.ephoto(lien,arg.join(' '));
    repondre("processing ...")
+    await zk.sendMessage(dest,{image:{url:img.image},caption:" *LOGO BY 4ORTY6YX-OFFICIAL-MD*"},{quoted:ms})
+  }catch(e){repondre(e)}
+})
+
+
+zokou({nomCom:"deadpool",categorie:"🎨Logo",reaction:"😋"},async(dest,zk,commandeOptions)=>{
+
+
+  let {ms,arg,prefixe,repondre}=commandeOptions;
+  try{
+      if(!arg||arg=="")
+      {
+        repondre(prefixe+"deadpool 4ORTY6YX-OFFICIAL-MD");return;
+      }
+
+    var lien="https://en.ephoto360.com/create-text-effects-in-the-style-of-the-deadpool-logo-818.html";
+
+    var img = await mumaker.ephoto(lien,arg.join(' '));
+   repondre("processing logo ...")
     await zk.sendMessage(dest,{image:{url:img.image},caption:" *LOGO BY 4ORTY6YX-OFFICIAL-MD*"},{quoted:ms})
   }catch(e){repondre(e)}
 })
