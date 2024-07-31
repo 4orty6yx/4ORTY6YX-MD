@@ -5,7 +5,7 @@ const {Sticker ,StickerTypes}= require('wa-sticker-formatter');
 
 zokou({
   nomCom: "ranime",
-  categorie: "Fun",
+  categorie: "🎯Fun",
   reaction: "📺"
 },
 async (origineMessage, zk, commandeOptions) => {
@@ -37,7 +37,7 @@ async (origineMessage, zk, commandeOptions) => {
 
 zokou({
   nomCom: "google",
-  categorie: "Search"
+  categorie: "🔎Search"
 }, async (dest, zk, commandeOptions) => {
   const { arg, repondre } = commandeOptions;
   
@@ -66,7 +66,7 @@ zokou({
 
 zokou({
   nomCom: "imdb",
-  categorie: "Search"
+  categorie: "🔎Search"
 }, async (dest, zk, commandeOptions) => {
   const { arg, repondre , ms } = commandeOptions;
 
@@ -116,7 +116,7 @@ zokou({
 
 zokou({
   nomCom: "movie",
-  categorie: "Search"
+  categorie: "🔎Search"
 }, async (dest, zk, commandeOptions) => {
   const { arg, repondre , ms } = commandeOptions;
 

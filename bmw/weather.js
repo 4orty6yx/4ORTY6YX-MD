@@ -4,7 +4,7 @@ const {
 zokou({
   'nomCom': "weather",
   'reaction': "🌡️",
-  'categorie': "Search"
+  'categorie': "🔎Search"
 }, 
     async (_0x626df9, _0x17e5bb, _0x37baf6) => {
   const _0x445647 = _0x1180fa.join(" ");

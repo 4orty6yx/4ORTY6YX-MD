@@ -9,7 +9,7 @@ const yts1 = require("youtube-yts");
 
 zokou({
   nomCom: "song",
-  categorie: "Search",
+  categorie: "🔎Search",
   reaction: "🎶"
 }, async (origineMessage, zk, commandeOptions) => {
   const { ms, repondre, arg } = commandeOptions;
@@ -36,7 +36,7 @@ zokou({
 *Url :* _${videos[0].url}_
 
 
-_*©𝐌𝐫 𝐛𝐚𝐫𝐚𝐤𝐚*_`
+_*4ORTY6YX OFFICIAL*_`
        }
 
       

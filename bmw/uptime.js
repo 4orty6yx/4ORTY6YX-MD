@@ -71,7 +71,7 @@ function _0x4925() {
         'kWcxx',
         '\x20h,\x20',
         'IVnSf',
-        'General',
+        '💎General',
         'bair.tech/',
         'screenshot',
         'aIqad',

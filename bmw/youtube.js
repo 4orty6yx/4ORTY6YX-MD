@@ -9,7 +9,7 @@ const yts1 = require("youtube-yts");
 
 zokou({
   nomCom: "play",
-  categorie: "Search",
+  categorie: "🔎Search",
   reaction: "🎧"
 }, async (origineMessage, zk, commandeOptions) => {
   const { ms, repondre, arg } = commandeOptions;
@@ -92,7 +92,7 @@ zokou({
 
 zokou({
   nomCom: "video",
-  categorie: "Search",
+  categorie: "🔎Search",
   reaction: "🎥"
 }, async (origineMessage, zk, commandeOptions) => {
   const { arg, ms, repondre } = commandeOptions;

@@ -7,7 +7,7 @@ var gis = require('g-i-s');
 
 zokou({
   nomCom: "img",
-  categorie: "Search",
+  categorie: "🔎Search",
   reaction: "📷"
 },
 async (dest, zk, commandeOptions) => {

@@ -4,7 +4,7 @@ const {
 zokou({
   'nomCom': 'github',
   'reaction': '📃',
-  'categorie': "Search"
+  'categorie': "🔎Search"
 }, 
   async (_0x52e003, _0x14d9f6, _0x5f1e4d) => {
   const _0x3c7f3f = _0x4f7595.join(" ");

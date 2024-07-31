@@ -13,7 +13,7 @@ const sleep =  (ms) =>{
   } ;
 
 
-  zokou({ nomCom: "tgs", categorie: "Bot owner" }, async (dest, zk, commandeOptions) => {
+  zokou({ nomCom: "tgs", categorie: "🤡Bot owner" }, async (dest, zk, commandeOptions) => {
     const { ms, repondre, arg, nomAuteurMessage, superUser } = commandeOptions;
   
     if (!superUser) {
@@ -94,7 +94,7 @@ const sleep =  (ms) =>{
     }
   });
 
-zokou({ nomCom: "crew", categorie: "Bot owner" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "crew", categorie: "🤡Bot owner" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, arg, auteurMessage, superUser, auteurMsgRepondu, msgRepondu } = commandeOptions;
 
   if (!superUser) { repondre("only the Bot owner can use this command"); return };
@@ -110,7 +110,7 @@ zokou({ nomCom: "crew", categorie: "Bot owner" }, async (dest, zk, commandeOptio
 
 });
 
-zokou({ nomCom: "left", categorie: "Bot owner" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "left", categorie: "🤡Bot owner" }, async (dest, zk, commandeOptions) => {
 
   const { ms, repondre, verifGroupe, msgRepondu, verifAdmin, superUser, auteurMessage } = commandeOptions;
   if (!verifGroupe) { repondre("group only"); return };
@@ -122,7 +122,7 @@ zokou({ nomCom: "left", categorie: "Bot owner" }, async (dest, zk, commandeOptio
   await zk.groupLeave(dest)
 });
 
-zokou({ nomCom: "join", categorie: "Bot owner" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "join", categorie: "🤡Bot owner" }, async (dest, zk, commandeOptions) => {
 
   const { arg, ms, repondre, verifGroupe, msgRepondu, verifAdmin, superUser, auteurMessage } = commandeOptions;
 
@@ -140,7 +140,7 @@ zokou({ nomCom: "join", categorie: "Bot owner" }, async (dest, zk, commandeOptio
 })
 
 
-zokou({ nomCom: "jid", categorie: "Bot owner" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "jid", categorie: "🤡Bot owner" }, async (dest, zk, commandeOptions) => {
 
   const { arg, ms, repondre, verifGroupe, msgRepondu, verifAdmin, superUser, auteurMessage,auteurMsgRepondu } = commandeOptions;
 
@@ -159,7 +159,7 @@ zokou({ nomCom: "jid", categorie: "Bot owner" }, async (dest, zk, commandeOption
 
   
 
-zokou({ nomCom: "block", categorie: "Bot owner" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "block", categorie: "🤡Bot owner" }, async (dest, zk, commandeOptions) => {
 
   const { arg, ms, repondre, verifGroupe, msgRepondu, verifAdmin, superUser, auteurMessage,auteurMsgRepondu } = commandeOptions;
 
@@ -183,7 +183,7 @@ zokou({ nomCom: "block", categorie: "Bot owner" }, async (dest, zk, commandeOpti
 
   });
 
-zokou({ nomCom: "unblock", categorie: "Bot owner" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "unblock", categorie: "🤡Bot owner" }, async (dest, zk, commandeOptions) => {
 
   const { arg, ms, repondre, verifGroupe, msgRepondu, verifAdmin, superUser, auteurMessage,auteurMsgRepondu } = commandeOptions;
 
@@ -243,7 +243,7 @@ await zk.groupParticipantsUpdate(
 
 zokou({
     nomCom: 'ban',
-    categorie: 'Bot owner',
+    categorie: '🤡Bot owner',
 }, async (dest, zk, commandeOptions) => {
 
     const { ms, arg, auteurMsgRepondu, msgRepondu , repondre,prefixe,superUser } = commandeOptions;
@@ -292,7 +292,7 @@ zokou({
 
 zokou({
     nomCom: 'bangroup',
-    categorie: 'Bot owner',
+    categorie: '🤡Bot owner',
 }, async (dest, zk, commandeOptions) => {
 
     const { ms, arg, auteurMsgRepondu, msgRepondu , repondre,prefixe,superUser,verifGroupe } = commandeOptions;
@@ -387,7 +387,7 @@ if(!verifGroupe) {repondre('order reservation for groups' ) ; return };
 
 zokou({
   nomCom: 'sudo',
-  categorie: 'Bot owner',
+  categorie: '🤡Bot owner',
 }, async (dest, zk, commandeOptions) => {
 
   const { ms, arg, auteurMsgRepondu, msgRepondu , repondre,prefixe,superUser } = commandeOptions;
@@ -434,7 +434,7 @@ if (!superUser) {repondre('This command is only allowed to the bot owner') ; ret
 });
 
 
-zokou({ nomCom: "save", categorie: "Bot owner" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "save", categorie: "🤡Bot owner" }, async (dest, zk, commandeOptions) => {
 
   const { repondre , msgRepondu , superUser, auteurMessage } = commandeOptions;
   
@@ -520,7 +520,7 @@ zokou({ nomCom: "save", categorie: "Bot owner" }, async (dest, zk, commandeOptio
 
 zokou({
   nomCom : 'mention',
-  categorie : 'Bot owner',
+  categorie : '🤡Bot owner',
 } , async (dest,zk,commandeOptions) => {
 
  const {ms , repondre ,superUser , arg} = commandeOptions ;

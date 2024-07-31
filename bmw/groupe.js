@@ -518,7 +518,7 @@ zokou({ nomCom: "group", categorie: 'Group' }, async (dest, zk, commandeOptions)
 
 });
 
-zokou({ nomCom: "left", categorie: "Bot owner" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "left", categorie: "🤡Bot owner" }, async (dest, zk, commandeOptions) => {
 
   const { repondre, verifGroupe, superUser } = commandeOptions;
   if (!verifGroupe) { repondre("order reserved for group only"); return };
@@ -773,7 +773,7 @@ const cron = require(`../bdd/cron`) ;
 
 zokou({
       nomCom : 'automute',
-      categorie : 'Group'
+      categorie : '👩‍👩‍👦‍👦Group'
   } , async (dest,zk,commandeOptions) => {
 
       const {arg , repondre , verifAdmin } = commandeOptions ;
@@ -845,7 +845,7 @@ zokou({
 
   zokou({
     nomCom : 'autounmute',
-    categorie : 'Group'
+    categorie : '👩‍👩‍👦‍👦Group'
 } , async (dest,zk,commandeOptions) => {
 
     const {arg , repondre , verifAdmin } = commandeOptions ;
@@ -922,7 +922,7 @@ zokou({
 
 zokou({
   nomCom : 'fkick',
-  categorie : 'Group'
+  categorie : '👩‍👩‍👦‍👦Group'
 } , async (dest,zk,commandeOptions) => {
 
   const {arg , repondre , verifAdmin , superUser , verifZokouAdmin } = commandeOptions ;
@@ -955,7 +955,7 @@ zokou({
 
 zokou({
       nomCom : 'nsfw',
-      categorie : 'Group'
+      categorie : '👩‍👩‍👦‍👦Group'
 }, async (dest,zk,commandeOptions) => {
   
     const {arg , repondre , verifAdmin } = commandeOptions ;

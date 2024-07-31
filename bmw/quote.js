@@ -1,6 +1,6 @@
 const { zokou } = require('../framework/zokou');
 
-zokou({ nomCom: 'quote', categorie: 'Fun' }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: 'quote', categorie: '🎉Fun' }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, verifGroupe, arg } = commandeOptions;
   if (!verifGroupe) {
     repondre('Order reserved for group only');

@@ -4,7 +4,7 @@ const axios =require("axios");
 
 zokou({ nomCom: "lyrics",
         reaction: "✨",
-        categorie: "Search" }, async (dest, zk, commandeOptions) => {
+        categorie: "🔎Search" }, async (dest, zk, commandeOptions) => {
     
     const { repondre, arg, ms } = commandeOptions;  
         
