@@ -166,7 +166,7 @@ zokou({
 
 zokou({
   nomCom: "emomix",
-  categorie: "Conversion"
+  categorie: "⏳Conversion"
 }, async (dest, zk, commandeOptions) => {
   const { arg, repondre,ms , nomAuteurMessage } = commandeOptions;
 
