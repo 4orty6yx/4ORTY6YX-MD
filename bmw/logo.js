@@ -201,24 +201,3 @@ zokou({nomCom:"incandescent",categorie:"🎨Logo",reaction:"😋"},async(dest,zk
   }catch(e){repondre(e)}
 })
 
-zokou({ nomCom: "deadpool",
-  categorie: "🎨Logo", reaction: "🐱‍👤" }, async (origineMessage, zk, commandeOptions) => {
-  const { prefixe, arg, ms, repondre } = commandeOptions;
-  if (!arg || arg == "") {
-      repondre("EXAMPLE :  " + prefixe + "deadpool 4orty6yx");
-      return;
-  }
-  try {
-      let radio = "984dd03e-220d-4335-a6ba-7ac56b092240";
-      let anu = await mumaker.ephoto("https://en.ephoto360.com/create-text-effects-in-the-style-of-the-deadpool-logo-818.html", arg); //
-      //
-     // let res = Object.values(anu)[3];
-      // console.log("&€"+res);
-    //  let lien = "https://e1.yotools.net" + res;
-      repondre("*processing*...");
-      await zk.sendMessage(origineMessage, { image: { url:anu.image}, caption: "\t LOGO BY 4ORTY6YX-OFFICIAL-MD" }, { quoted: ms });
-  }
-  catch (e) {
-      repondre("🥵🥵 " + e);
-  }
-});
