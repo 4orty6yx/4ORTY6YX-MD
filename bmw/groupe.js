@@ -702,7 +702,7 @@ zokou({nomCom:"hidetag",categorie:'👩‍👩‍👦‍👦Group',reaction:"�
 });
 
 
-zokou({ nomCom: "apk", reaction: "✨", categorie: "App downloader" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "apk", reaction: "✨", categorie: "📱App downloader" }, async (dest, zk, commandeOptions) => {
   const { repondre, arg, ms } = commandeOptions;
 
   try {

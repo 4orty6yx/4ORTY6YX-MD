@@ -8,7 +8,7 @@ const filename = `${Math.random().toString(36)}`;
 zokou (
     {
         nomCom : 'deep',
-        categorie : 'Audio-Edit',
+        categorie : '🎧✏Audio-Edit',
 
     }, async (dest , zk, commandeOptions) => {
         const {ms , repondre,msgRepondu} = commandeOptions;
@@ -53,7 +53,7 @@ zokou (
 zokou (
     {
         nomCom : 'bass',
-        categorie : 'Audio-Edit',
+        categorie : '🎧✏Audio-Edit',
 
     }, async (dest , zk, commandeOptions) => {
         const {ms , repondre,msgRepondu} = commandeOptions;
@@ -98,7 +98,7 @@ zokou (
 zokou(
     {
       nomCom: 'reverse',
-      categorie: 'Audio-Edit',
+      categorie: '🎧✏Audio-Edit',
     },
     async (dest, zk, commandeOptions) => {
       const { ms, repondre, msgRepondu } = commandeOptions;
@@ -134,7 +134,7 @@ zokou(
   zokou(
     {
       nomCom: 'slow',
-      categorie: 'Audio-Edit',
+      categorie: '🎧✏Audio-Edit',
     },
     async (dest, zk, commandeOptions) => {
       const { ms, repondre, msgRepondu } = commandeOptions;
@@ -171,7 +171,7 @@ zokou(
 zokou(
     {
       nomCom: 'smooth',
-      categorie: 'Audio-Edit',
+      categorie: '🎧✏Audio-Edit',
     },
     async (dest, zk, commandeOptions) => {
       const { ms, repondre, msgRepondu } = commandeOptions;
@@ -208,7 +208,7 @@ zokou(
   zokou(
     {
       nomCom: 'tempo',
-      categorie: 'Audio-Edit',
+      categorie: '🎧✏Audio-Edit',
     },
     async (dest, zk, commandeOptions) => {
       const { ms, repondre, msgRepondu } = commandeOptions;
@@ -245,7 +245,7 @@ zokou(
   zokou(
     {
       nomCom: 'nightcore',
-      categorie: 'Audio-Edit',
+      categorie: '🎧✏Audio-Edit',
     },
     async (dest, zk, commandeOptions) => {
       const { ms, repondre, msgRepondu } = commandeOptions;
