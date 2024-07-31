@@ -99,7 +99,7 @@ var lien="https://en.ephoto360.com/boom-text-comic-style-text-effect-675.html";
        // let lien = "https://e1.yotools.net" + res;
          
 
-repondre("  processing ...")
+repondre("*processing logo ...*")
          await zk.sendMessage(dest,{image:{url:img.image},caption:"\t *LOGO BY 4ORTY6YX-OFFICIAL-MD*"})
          
         // await zk.sendMessage(dest,{image:{url:lienImage},caption:"\t *LOGO BY 4ORTY6YX-OFFICIAL-MD*"})
@@ -123,7 +123,7 @@ var {ms,repondre,arg,prefixe}=commandeOptions;
   try{
     var lien ="https://en.ephoto360.com/create-water-effect-text-online-295.html";
     var img =await mumaker.ephoto(lien,arg);
-    repondre(" processing ...")
+    repondre("*processing logo ...*")
     await zk.sendMessage(dest,{image:{url:img.image},caption:"  *LOGO BY 4ORTY6YX-OFFICIAL-MD*"})
   }catch(e){repondre(`🥵🥵 ${e}`)}
 
@@ -140,7 +140,7 @@ zokou({nomCom:"purple",categorie:"🎨Logo",reaction:"🧳"},async(dest,zk,comma
     repondre(prefixe+"purple zokou");return;}
       const lien="https://en.ephoto360.com/purple-text-effect-online-100.html"
       var img = await mumaker.ephoto(lien,arg);
-      repondre("*processing* ...")
+      repondre("*processing logo ...*")
       await zk.sendMessage(dest,{image:{url:img.image},caption:"*LOGO BY 4ORTY6YX-OFFICIAL-MD* "});
     }catch(e){repondre(e)}
   
@@ -159,7 +159,7 @@ zokou({nomCom:"gold",categorie:"🎨Logo",reaction:"🧚🏿‍♀️"},async(de
     var lien="https://en.ephoto360.com/modern-gold-4-213.html";
 
     var img = await mumaker.ephoto(lien,arg);
-   repondre("processing ...")
+   repondre("*processing logo ...*")
     await zk.sendMessage(dest,{image:{url:img.image},caption:" *LOGO BY 4ORTY6YX-OFFICIAL-MD*"},{quoted:ms})
   }catch(e){repondre(e)}
 })
@@ -178,7 +178,7 @@ zokou({nomCom:"arena",categorie:"🎨Logo",reaction:"🥵"},async(dest,zk,comman
     var lien="https://en.ephoto360.com/create-cover-arena-of-valor-by-mastering-360.html";
 
     var img = await mumaker.ephoto(lien,arg.join(' '));
-   repondre("processing ...")
+   repondre("*processing logo ...*")
     await zk.sendMessage(dest,{image:{url:img.image},caption:" *Logo by Bwm-Md*"},{quoted:ms})
   }catch(e){repondre(e)}
 })
@@ -196,7 +196,7 @@ zokou({nomCom:"incandescent",categorie:"🎨Logo",reaction:"😋"},async(dest,zk
     var lien="https://en.ephoto360.com/text-effects-incandescent-bulbs-219.html";
 
     var img = await mumaker.ephoto(lien,arg.join(' '));
-   repondre("processing ...")
+   repondre("*processing logo ...*")
     await zk.sendMessage(dest,{image:{url:img.image},caption:" *LOGO BY 4ORTY6YX-OFFICIAL-MD*"},{quoted:ms})
   }catch(e){repondre(e)}
 })
@@ -215,7 +215,7 @@ zokou({nomCom:"deadpool",categorie:"🎨Logo",reaction:"😋"},async(dest,zk,com
     var lien="https://en.ephoto360.com/create-text-effects-in-the-style-of-the-deadpool-logo-818.html";
 
     var img = await mumaker.ephoto(lien,arg.join(' '));
-   repondre("processing logo ...")
+   repondre("*processing logo ...*")
     await zk.sendMessage(dest,{image:{url:img.image},caption:" *LOGO BY 4ORTY6YX-OFFICIAL-MD*"},{quoted:ms})
   }catch(e){repondre(e)}
 })
