@@ -86,6 +86,29 @@ zokou({ nomCom: "naruto", categorie: "🎨Logo", reaction: "⛩" }, async (dest,
     }
 });
 */
+//halloween
+
+zokou({ nomCom: "halloween", categorie: "🎨Logo", reaction: "⛩" }, async (dest, zk, commandeOptions) => {
+  let { ms, arg, repondre, prefixe } = commandeOptions;
+  try {
+      if (!arg || arg == '') {
+          repondre("*_EXAMPLE : * " + prefixe + "halloween 4orty6yx");
+          return;
+      }
+      var nar = "https://en.ephoto360.com/create-spooky-photos-online-for-halloween-787.html#";
+      //let img= await //mumaker.textpro('https://textpro.me/create-naruto-logo-style-text-effect-online-1125.html',arg);
+      repondre("*traitement en cours...*");
+      var radio2 = "e0723d60-fc0d-421f-bf8f-a9b9b61e4be6";
+      var img = await mumaker.ephoto("https://en.ephoto360.com/naruto-shippuden-logo-style-text-effect-online-808.html", arg.join(' '));
+      
+      await zk.sendMessage(dest, { image: { url: img.image }, caption: "\t\t *LOGO BY 4ORTY6YX-OFFICIAL-MD*" }, { quoted: ms });
+  }
+  catch (e) {
+      repondre("🥵🥵 " + e);
+  }
+});
+
+
 
 
 zokou({ nomCom: "didong", categorie: "🎨Logo", reaction: "📱" }, async (dest, zk, commandeOptions) => {
