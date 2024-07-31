@@ -121,7 +121,7 @@ async (origineMessage, zk, commandeOptions) => {
 
 zokou({
   nomCom: "hentaivid",
-  categorie: "🍑🍆Hentai(18+",
+  categorie: "🍑🍆Hentai(18+)",
   reaction: "🍑"
 },
 async (origineMessage, zk, commandeOptions) => {

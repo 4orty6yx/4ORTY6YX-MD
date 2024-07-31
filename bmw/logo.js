@@ -212,7 +212,7 @@ zokou({nomCom: "devil", categorie: "🎨Logo", reaction: "😈"}, async (dest, z
 ////////////////////
 zokou(
   {nomCom:"boom",categorie:
-    "Logo",reaction:"💥"},async(dest,zk,commandeOptions)=>{
+    "🎨Logo",reaction:"💥"},async(dest,zk,commandeOptions)=>{
 
     let {ms,repondre,prefixe,arg}=commandeOptions;
 
