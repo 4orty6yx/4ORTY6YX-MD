@@ -36,7 +36,7 @@ zokou({ nomCom: "dragonball", categorie: "🎨Logo", reaction: "🐉" }, async (
        
         const imgInfo = await mumaker.ephoto(lienMaker2, arg.join(' '));
        
-        await zk.sendMessage(dest, { text: " *\t Traitement en cours ...*" }, { quoted: ms });
+        await zk.sendMessage(dest, { text: " *\t Generating Logo ...*" }, { quoted: ms });
        // var idImg = Object.values(imgInfo)[3];
        
         await zk.sendMessage(dest, { image: { url: imgInfo.image }, caption: "\t LOGO BY 4ORTY6YX-OFFICIAL-MD" }, { quoted: ms });
@@ -55,7 +55,7 @@ zokou({ nomCom: "naruto", categorie: "🎨Logo", reaction: "⛩" }, async (dest,
         }
         var nar = "https://en.ephoto360.com/naruto-shippuden-logo-style-text-effect-online-808.html";
         //let img= await //mumaker.textpro('https://textpro.me/create-naruto-logo-style-text-effect-online-1125.html',arg);
-        repondre("*traitement en cours...*");
+        repondre("*Generating Logo...*");
         var radio2 = "e0723d60-fc0d-421f-bf8f-a9b9b61e4be6";
         var img = await mumaker.ephoto("https://en.ephoto360.com/naruto-shippuden-logo-style-text-effect-online-808.html", arg.join(' '));
         
@@ -95,11 +95,11 @@ zokou({ nomCom: "halloween", categorie: "🎨Logo", reaction: "⛩" }, async (de
           repondre("*_EXAMPLE : * " + prefixe + "halloween 4orty6yx");
           return;
       }
-      var nar = "https://en.ephoto360.com/create-spooky-photos-online-for-halloween-787.html#";
+      var nar = "https://en.ephoto360.com/create-spooky-photos-online-for-halloween-787.html";
       //let img= await //mumaker.textpro('https://textpro.me/create-naruto-logo-style-text-effect-online-1125.html',arg);
-      repondre("*traitement en cours...*");
+      repondre("*Generating Logo...*");
       var radio2 = "e0723d60-fc0d-421f-bf8f-a9b9b61e4be6";
-      var img = await mumaker.ephoto("https://en.ephoto360.com/naruto-shippuden-logo-style-text-effect-online-808.html", arg.join(' '));
+      var img = await mumaker.ephoto("https://en.ephoto360.com/create-spooky-photos-online-for-halloween-787.html", arg.join(' '));
       
       await zk.sendMessage(dest, { image: { url: img.image }, caption: "\t\t *LOGO BY 4ORTY6YX-OFFICIAL-MD*" }, { quoted: ms });
   }
@@ -124,7 +124,7 @@ zokou({ nomCom: "didong", categorie: "🎨Logo", reaction: "📱" }, async (dest
         var maker =await mumaker.ephoto(lien,arg.join(' '));
     
         
-     repondre('*processing...*')
+     repondre('*Generating Logo*')
        await zk.sendMessage(dest, { image: { url: maker.image}, caption: titre });
     }
     catch (e) {
@@ -134,12 +134,12 @@ zokou({ nomCom: "didong", categorie: "🎨Logo", reaction: "📱" }, async (dest
 );
 
 
-zokou({nomCom : "wall",categorie : "🎨Logo",reaction : "👍"} , async (dest,zk,commandeOptions) =>{
+zokou({nomCom : "shadow",categorie : "🎨Logo",reaction : "👍"} , async (dest,zk,commandeOptions) =>{
 
   const {arg,repondre,ms,prefixe} = commandeOptions;
-  if(!arg[0]) { repondre( `EXAMPLE of using commande:\n ${prefixe}wall 4ORTY6YX-OFFICIAL-MD` ); return ;}
+  if(!arg[0]) { repondre( `EXAMPLE of using commande:\n ${prefixe}shadow 4ORTY6YX-OFFICIAL-MD` ); return ;}
    let text = arg.join(" ")
-   mumaker.textpro("https://textpro.me/break-wall-text-effect-871.html", text)
+   mumaker.textpro("https://textpro.me/create-a-gradient-text-shadow-effect-online-1141.html", text)
 .then((data) =>{
  zk.sendMessage(dest,{image : { url : data.image},caption : 'Logo by'},{quoted:ms})
 }) 
