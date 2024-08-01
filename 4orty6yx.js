@@ -510,7 +510,7 @@ zk.readMessages([ms.key]);
         
     
     catch (e) {
-        console.log("bdd err " + e);
+        console.log("error in bdd " + e);
     }
     
 
